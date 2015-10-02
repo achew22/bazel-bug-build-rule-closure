@@ -1,0 +1,4 @@
+startup --batch
+build --package_path %workspace%:/bazel/base_workspace
+fetch --package_path %workspace%:/bazel/base_workspace
+query --package_path %workspace%:/bazel/base_workspace
